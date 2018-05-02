@@ -3,10 +3,10 @@
 In current repo I'm going to learn how to create the perfect code and amaizing git commits
 
 ## Python example
-'''python
+```python
     for line in lines:
         print(line[0])
-'''
+```
 
 ### My TODO list
 
