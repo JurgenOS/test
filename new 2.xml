@@ -1,0 +1,515 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<MasterContents xmlns='http://schemas.microsoft.com/office/visio/2012/main' xmlns:r='http://schemas.openxmlformats.org/officeDocument/2006/relationships' xml:space='preserve'>
+	<Shapes>
+		<Shape ID='5' NameU='SegmentCount Dyn Connector.8' IsCustomNameU='1' Name='SegmentCount Dyn Connector.8' IsCustomName='1' Type='Group' LineStyle='8' FillStyle='8' TextStyle='8' UniqueID='{6496AFBA-5CD4-44FE-BCB1-2E9EFB6ED934}'>
+			<Cell N='PinX' V='0.5118110236220459' F='GUARD((BeginX+EndX)/2)'/>
+			<Cell N='PinY' V='0.476377952755906' F='GUARD((BeginY+EndY)/2)'/>
+			<Cell N='Width' V='1.023622047244094' F='GUARD(EndX-BeginX)'/>
+			<Cell N='Height' V='0.9527559055118102' F='GUARD(EndY-BeginY)'/>
+			<Cell N='LocPinX' V='0.5118110236220468' F='GUARD(Width*0.5)'/>
+			<Cell N='LocPinY' V='0.4763779527559051' F='GUARD(Height*0.5)'/>
+			<Cell N='Angle' V='0' F='GUARD(0DA)'/>
+			<Cell N='FlipX' V='0' F='GUARD(FALSE)'/>
+			<Cell N='FlipY' V='0' F='GUARD(FALSE)'/>
+			<Cell N='ResizeMode' V='0'/>
+			<Cell N='BeginX' V='-8.881784197001252E-16'/>
+			<Cell N='BeginY' V='8.881784197001252E-16'/>
+			<Cell N='EndX' V='1.023622047244093'/>
+			<Cell N='EndY' V='0.9527559055118111'/>
+			<Cell N='LayerMember' V='0'/>
+			<Cell N='LineWeight' V='0.01388888888888889' U='PT' F='Inh'/>
+			<Cell N='LineColor' V='#5b9bd5' F='Inh'/>
+			<Cell N='EndArrow' V='4' F='Inh'/>
+			<Cell N='NoAlignBox' V='1'/>
+			<Cell N='DynFeedback' V='2'/>
+			<Cell N='GlueType' V='2'/>
+			<Cell N='BegTrigger' V='1' F='_XFTRIGGER(EventXFMod)'/>
+			<Cell N='EndTrigger' V='1' F='_XFTRIGGER(EventXFMod)'/>
+			<Cell N='ObjType' V='2'/>
+			<Cell N='NoLiveDynamics' V='1'/>
+			<Cell N='ShapeRouteStyle' V='6'/>
+			<Cell N='ConLineRouteExt' V='1'/>
+			<Cell N='TxtPinX' V='0.1476377952750257' F='SETATREF(Controls.TextPosition)'/>
+			<Cell N='TxtPinY' V='0.8405511813201055' F='SETATREF(Controls.TextPosition.Y)'/>
+			<Cell N='TxtWidth' V='0.5555555555555556' F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+			<Cell N='TxtHeight' V='0.2444444444444444' F='TEXTHEIGHT(TheText,TxtWidth)'/>
+			<Cell N='TxtLocPinX' V='0.2777777777777778' F='TxtWidth*0.5'/>
+			<Cell N='TxtLocPinY' V='0.1222222222222222' F='TxtHeight*0.5'/>
+			<Cell N='TxtAngle' V='0'/>
+			<Cell N='FillForegnd' V='#f59d56' F='THEMEGUARD(RGB(245,157,86))'/>
+			<Cell N='FillBkgnd' V='#f59e56' F='THEMEGUARD(SHADE(FillForegnd,LUMDIFF(THEMEVAL("FillColor"),THEMEVAL("FillColor2"))))'/>
+			<Cell N='FillGradientEnabled' V='0'/>
+			<Cell N='LockHeight' V='1'/>
+			<Cell N='LockCalcWH' V='1'/>
+			<Cell N='HelpTopic' V='Vis_SE.chm!#20000'/>
+			<Cell N='Copyright' V='Copyright 2001 Microsoft Corporation.  All rights reserved.'/>
+			<Cell N='DisplayMode' V='1'/>
+			<Cell N='SketchSeed' V='15596'/>
+			<Cell N='ColorSchemeIndex' V='33'/>
+			<Cell N='EffectSchemeIndex' V='33'/>
+			<Cell N='ConnectorSchemeIndex' V='33'/>
+			<Cell N='FontSchemeIndex' V='33'/>
+			<Cell N='ThemeIndex' V='33'/>
+			<Section N='Control'>
+				<Row N='TextPosition'>
+					<Cell N='X' V='0.1476377952750257'/>
+					<Cell N='Y' V='0.8405511813201055'/>
+					<Cell N='XDyn' V='0.1476377952750257' F='Controls.TextPosition'/>
+					<Cell N='YDyn' V='0.8405511813201055' F='Controls.TextPosition.Y'/>
+					<Cell N='XCon' V='5' F='IF(OR(STRSAME(SHAPETEXT(TheText),""),HideText),5,0)'/>
+					<Cell N='YCon' V='0'/>
+					<Cell N='CanGlue' V='0'/>
+					<Cell N='Prompt' V='Reposition Text'/>
+				</Row>
+			</Section>
+			<Section N='User'>
+				<Row N='Label_Offset_Start'>
+					<Cell N='Value' V='0.1574803149606299' U='MM' F='IF(BeginArrow&gt;0,6MM,4MM)'/>
+					<Cell N='Prompt' V=''/>
+				</Row>
+				<Row N='Label_StartPnt'>
+					<Cell N='Value' V='PNT(0.14763779527559,0.0098425196850394)' U='PNT' F='POINTALONGPATH(Geometry1.Path,User.Label_Offset_Start/User.Geo1PathLength)'/>
+					<Cell N='Prompt' V=''/>
+				</Row>
+				<Row N='Label_Offset_End'>
+					<Cell N='Value' V='0.2362204724409449' U='MM' F='IF(EndArrow&gt;0,6MM,4MM)'/>
+					<Cell N='Prompt' V=''/>
+				</Row>
+				<Row N='Label_EndPnt'>
+					<Cell N='Value' V='PNT(0.78740157480315,0.95275590551181)' U='PNT' F='POINTALONGPATH(Geometry1.Path,(User.Geo1PathLength-User.Label_Offset_End)/User.Geo1PathLength)'/>
+					<Cell N='Prompt' V=''/>
+				</Row>
+				<Row N='LabelsDistance'>
+					<Cell N='Value' V='1.147624289165673' U='DL' F='SQRT((Scratch.X2-Scratch.X1)^2+(Scratch.Y2-Scratch.Y1)^2)'/>
+					<Cell N='Prompt' V=''/>
+				</Row>
+				<Row N='AutoHideLabels'>
+					<Cell N='Value' V='0' U='BOOL' F='User.LabelsDistance&lt;(User.MinLabelSize*2.5)'/>
+					<Cell N='Prompt' V=''/>
+				</Row>
+				<Row N='Label_Start_Side'>
+					<Cell N='Value' V='1' F='RECTSECT(1,1,PNTX(User.Label_StartPnt),PNTY(User.Label_StartPnt),0)'/>
+					<Cell N='Prompt' V=''/>
+				</Row>
+				<Row N='Label_End_Side'>
+					<Cell N='Value' V='3' F='RECTSECT(1,1,PNTX(User.Label_EndPnt)-Geometry2.X4,PNTY(User.Label_EndPnt)-Geometry2.Y4,0)'/>
+					<Cell N='Prompt' V=''/>
+				</Row>
+				<Row N='fx_LocPinXFactor'>
+					<Cell N='Value' V='0.5' U='STR' F='INDEX(ARG("Sect"),"0.5;0.0;0.5;1.0;0.5",";",0.5)'/>
+					<Cell N='Prompt' V=''/>
+				</Row>
+				<Row N='fx_LocPinYFactor'>
+					<Cell N='Value' V='0.5' U='STR' F='INDEX(ARG("Sect"),"0.5;0.5;0.0;0.5;1.0",";",0.5)'/>
+					<Cell N='Prompt' V=''/>
+				</Row>
+				<Row N='MinLabelSize'>
+					<Cell N='Value' V='0.1968503937007874' U='MM'/>
+					<Cell N='Prompt' V=''/>
+				</Row>
+				<Row N='HideMidLine'>
+					<Cell N='Value' V='0' U='BOOL' F='AND(Prop.HideMidLine,NOT(User.AutoHideLabels))'/>
+					<Cell N='Prompt' V=''/>
+				</Row>
+				<Row N='IsRightAngleConn'>
+					<Cell N='Value' V='1' U='BOOL' F='SEGMENTCOUNT(Geometry1.Path)&gt;1'/>
+					<Cell N='Prompt' V=''/>
+				</Row>
+				<Row N='fx_SectorAxis'>
+					<Cell N='Value' V='0' F='IF(ARG("Sect")=0,0,IF(MODULUS(ARG("Sect"),2)=0,1,2))'/>
+					<Cell N='Prompt' V='0=zero (center), 1=vertical (2 or 4), 2=horizontal (1 or 3)'/>
+				</Row>
+				<Row N='BeginPnt'>
+					<Cell N='Value' V='PNT(0,0)' U='PNT' F='POINTALONGPATH(Geometry1.Path,0)'/>
+					<Cell N='Prompt' V=''/>
+				</Row>
+				<Row N='EndPnt'>
+					<Cell N='Value' V='PNT(1.0236220472441,0.95275590551181)' U='PNT' F='POINTALONGPATH(Geometry1.Path,1)'/>
+					<Cell N='Prompt' V=''/>
+				</Row>
+				<Row N='Calc_Label_StartPnt'>
+					<Cell N='Value' V='PNT(0.14763779527559,0)' U='PNT' F='PNT(Scratch.X1,Scratch.Y1)'/>
+					<Cell N='Prompt' V=''/>
+				</Row>
+				<Row N='Calc_Label_EndPnt'>
+					<Cell N='Value' V='PNT(0.78740157480315,0.95275590551181)' U='PNT' F='PNT(Scratch.X2,Scratch.Y2)'/>
+					<Cell N='Prompt' V=''/>
+				</Row>
+				<Row N='Geo1PathLength'>
+					<Cell N='Value' V='1.976377952755904' F='PATHLENGTH(Geometry1.Path)'/>
+					<Cell N='Prompt' V=''/>
+				</Row>
+			</Section>
+			<Section N='Character'>
+				<Row IX='0'>
+					<Cell N='LangID' V='en-GB'/>
+				</Row>
+			</Section>
+			<Section N='Actions'>
+				<Row N='HideMidLine'>
+					<Cell N='Menu' V='Hide this connector line' F='Prop.HideMidLine.Label'/>
+					<Cell N='Action' V='0' F='SETF(GetRef(Prop.HideMidLine),NOT(Prop.HideMidLine))'/>
+					<Cell N='Checked' V='0' F='Prop.HideMidLine'/>
+					<Cell N='Disabled' V='0'/>
+					<Cell N='ReadOnly' V='0'/>
+					<Cell N='Invisible' V='0'/>
+					<Cell N='BeginGroup' V='1'/>
+					<Cell N='FlyoutChild' V='0'/>
+					<Cell N='TagName' V=''/>
+					<Cell N='ButtonFace' V=''/>
+					<Cell N='SortKey' V='20'/>
+				</Row>
+				<Row N='SyncLabels'>
+					<Cell N='Menu' V='Sync labels' F='Prop.SyncLabels.Label'/>
+					<Cell N='Action' V='0' F='SETF(GetRef(Prop.SyncLabels),NOT(Prop.SyncLabels))'/>
+					<Cell N='Checked' V='1' F='Prop.SyncLabels'/>
+					<Cell N='Disabled' V='0'/>
+					<Cell N='ReadOnly' V='0'/>
+					<Cell N='Invisible' V='0'/>
+					<Cell N='BeginGroup' V='0'/>
+					<Cell N='FlyoutChild' V='0'/>
+					<Cell N='TagName' V=''/>
+					<Cell N='ButtonFace' V=''/>
+					<Cell N='SortKey' V='10'/>
+				</Row>
+				<Row N='HideAllMidLines'>
+					<Cell N='Menu' V='Hide page connector lines'/>
+					<Cell N='Action' V='0' F='SETF(GetRef(ThePage!Prop.HideAllMidConnLines),NOT(ThePage!Prop.HideAllMidConnLines))'/>
+					<Cell N='Checked' V='0' F='ThePage!Prop.HideAllMidConnLines'/>
+					<Cell N='Disabled' V='1' F='LOCALFORMULAEXISTS(Prop.HideMidLine)'/>
+					<Cell N='ReadOnly' V='0'/>
+					<Cell N='Invisible' V='0'/>
+					<Cell N='BeginGroup' V='0'/>
+					<Cell N='FlyoutChild' V='0'/>
+					<Cell N='TagName' V=''/>
+					<Cell N='ButtonFace' V=''/>
+					<Cell N='SortKey' V='40'/>
+				</Row>
+				<Row N='ResetFromPage'>
+					<Cell N='Menu' V='Use page connector setting'/>
+					<Cell N='Action' V='0' F='SETF(GetRef(Prop.HideMidLine),"=")'/>
+					<Cell N='Checked' V='0'/>
+					<Cell N='Disabled' V='0' F='NOT(LOCALFORMULAEXISTS(Prop.HideMidLine))'/>
+					<Cell N='ReadOnly' V='0'/>
+					<Cell N='Invisible' V='0'/>
+					<Cell N='BeginGroup' V='0'/>
+					<Cell N='FlyoutChild' V='0'/>
+					<Cell N='TagName' V=''/>
+					<Cell N='ButtonFace' V=''/>
+					<Cell N='SortKey' V='30'/>
+				</Row>
+			</Section>
+			<Section N='Property'>
+				<Row N='SyncLabels'>
+					<Cell N='Value' V='1' U='BOOL'/>
+					<Cell N='Prompt' V=''/>
+					<Cell N='Label' V='Sync labels'/>
+					<Cell N='Format' V=''/>
+					<Cell N='SortKey' V=''/>
+					<Cell N='Type' V='3'/>
+					<Cell N='Invisible' V='0'/>
+					<Cell N='Verify' V='0'/>
+					<Cell N='DataLinked' V='0'/>
+					<Cell N='LangID' V='en-US'/>
+					<Cell N='Calendar' V='0'/>
+				</Row>
+				<Row N='LabelStart'>
+					<Cell N='Value' V='A' U='STR'/>
+					<Cell N='Prompt' V=''/>
+					<Cell N='Label' V='Label start text'/>
+					<Cell N='Format' V=''/>
+					<Cell N='SortKey' V=''/>
+					<Cell N='Type' V='0'/>
+					<Cell N='Invisible' V='0'/>
+					<Cell N='Verify' V='0'/>
+					<Cell N='DataLinked' V='0'/>
+					<Cell N='LangID' V='en-US'/>
+					<Cell N='Calendar' V='0'/>
+				</Row>
+				<Row N='LabelEnd'>
+					<Cell N='Value' V='B' U='STR'/>
+					<Cell N='Prompt' V=''/>
+					<Cell N='Label' V='Label end text'/>
+					<Cell N='Format' V=''/>
+					<Cell N='SortKey' V=''/>
+					<Cell N='Type' V='0'/>
+					<Cell N='Invisible' V='1' F='Prop.SyncLabels'/>
+					<Cell N='Verify' V='0'/>
+					<Cell N='DataLinked' V='0'/>
+					<Cell N='LangID' V='en-US'/>
+					<Cell N='Calendar' V='0'/>
+				</Row>
+				<Row N='HideMidLine'>
+					<Cell N='Value' V='0' U='BOOL' F='ThePage!Prop.HideAllMidConnLines'/>
+					<Cell N='Prompt' V=''/>
+					<Cell N='Label' V='Hide this connector line'/>
+					<Cell N='Format' V=''/>
+					<Cell N='SortKey' V=''/>
+					<Cell N='Type' V='3'/>
+					<Cell N='Invisible' V='0'/>
+					<Cell N='Verify' V='0'/>
+					<Cell N='DataLinked' V='0'/>
+					<Cell N='LangID' V='en-US'/>
+					<Cell N='Calendar' V='0'/>
+				</Row>
+			</Section>
+			<Section N='Scratch'>
+				<Row IX='0'>
+					<Cell N='X' V='0.1476377952755905' F='IF(User.IsRightAngleConn,IF(EVALCELL(User.fx_SectorAxis,"Sect",User.Label_Start_Side)=1,PNTX(User.BeginPnt),PNTX(User.Label_StartPnt)),PNTX(User.Label_StartPnt))'/>
+					<Cell N='Y' V='0' F='IF(User.IsRightAngleConn,IF(EVALCELL(User.fx_SectorAxis,"Sect",User.Label_Start_Side)=2,PNTY(User.BeginPnt),PNTY(User.Label_StartPnt)),PNTY(User.Label_StartPnt))'/>
+					<Cell N='A' V='Calculated label point - Start' U='STR'/>
+					<Cell N='B' V='0' F='No Formula'/>
+					<Cell N='C' V='0' F='No Formula'/>
+					<Cell N='D' V='0' F='No Formula'/>
+				</Row>
+				<Row IX='1'>
+					<Cell N='X' V='0.787401574803149' F='IF(User.IsRightAngleConn,IF(EVALCELL(User.fx_SectorAxis,"Sect",User.Label_End_Side)=1,PNTX(User.EndPnt),PNTX(User.Label_EndPnt)),PNTX(User.Label_EndPnt))'/>
+					<Cell N='Y' V='0.9527559055118102' F='IF(User.IsRightAngleConn,IF(EVALCELL(User.fx_SectorAxis,"Sect",User.Label_End_Side)=2,PNTY(User.EndPnt),PNTY(User.Label_EndPnt)),PNTY(User.Label_EndPnt))'/>
+					<Cell N='A' V='Calculated label point - End' U='STR'/>
+					<Cell N='B' V='0' F='No Formula'/>
+					<Cell N='C' V='0' F='No Formula'/>
+					<Cell N='D' V='0' F='No Formula'/>
+				</Row>
+			</Section>
+			<Section N='Geometry' IX='0'>
+				<Cell N='NoFill' V='1'/>
+				<Cell N='NoLine' V='0' F='User.HideMidLine'/>
+				<Cell N='NoShow' V='0'/>
+				<Cell N='NoSnap' V='0'/>
+				<Cell N='NoQuickDrag' V='0'/>
+				<Row T='MoveTo' IX='1'>
+					<Cell N='X' V='0'/>
+					<Cell N='Y' V='0'/>
+				</Row>
+				<Row T='LineTo' IX='2'>
+					<Cell N='X' V='0.1476377952755905'/>
+					<Cell N='Y' V='0'/>
+				</Row>
+				<Row T='LineTo' IX='3'>
+					<Cell N='X' V='0.1476377952755905'/>
+					<Cell N='Y' V='0.9527559055118102'/>
+				</Row>
+				<Row T='LineTo' IX='4'>
+					<Cell N='X' V='1.023622047244094'/>
+					<Cell N='Y' V='0.9527559055118102'/>
+				</Row>
+			</Section>
+			<Section N='Geometry' IX='1'>
+				<Cell N='NoFill' V='1'/>
+				<Cell N='NoLine' V='1' F='NOT(User.HideMidLine)'/>
+				<Cell N='NoShow' V='0'/>
+				<Cell N='NoSnap' V='0'/>
+				<Cell N='NoQuickDrag' V='0'/>
+				<Row T='MoveTo' IX='1'>
+					<Cell N='X' V='0' F='User.BeginPnt'/>
+					<Cell N='Y' V='0' F='User.BeginPnt'/>
+				</Row>
+				<Row T='LineTo' IX='2'>
+					<Cell N='X' V='0.1476377952755905' F='User.Calc_Label_StartPnt'/>
+					<Cell N='Y' V='0' F='User.Calc_Label_StartPnt'/>
+				</Row>
+				<Row T='MoveTo' IX='3'>
+					<Cell N='X' V='0.787401574803149' F='User.Calc_Label_EndPnt'/>
+					<Cell N='Y' V='0.9527559055118102' F='User.Calc_Label_EndPnt'/>
+				</Row>
+				<Row T='LineTo' IX='4'>
+					<Cell N='X' V='1.023622047244094' F='User.EndPnt'/>
+					<Cell N='Y' V='0.9527559055118102' F='User.EndPnt'/>
+				</Row>
+			</Section>
+			<Text>
+				<cp IX='0'/>
+			</Text>
+			<Shapes>
+				<Shape ID='6' NameU='StartLabel' IsCustomNameU='1' Name='StartLabel' IsCustomName='1' Type='Shape' LineStyle='1' FillStyle='1' TextStyle='7'>
+					<Cell N='PinX' V='0.1476377952755905' F='Sheet.5!User.Calc_Label_StartPnt'/>
+					<Cell N='PinY' V='0' F='Sheet.5!User.Calc_Label_StartPnt'/>
+					<Cell N='Width' V='0.1968503937007874' U='MM' F='MAX(TxtWidth,Sheet.5!User.MinLabelSize)'/>
+					<Cell N='Height' V='0.1968503937007874' U='MM' F='MAX(Sheet.5!User.MinLabelSize,TEXTHEIGHT(TheText,TxtWidth))'/>
+					<Cell N='LocPinX' V='0' U='MM' F='Width*EVALCELL(Sheet.5!User.fx_LocPinXFactor,"Sect",Sheet.5!User.Label_Start_Side)'/>
+					<Cell N='LocPinY' V='0.09842519685039371' U='MM' F='Height*EVALCELL(Sheet.5!User.fx_LocPinYFactor,"Sect",Sheet.5!User.Label_Start_Side)'/>
+					<Cell N='Angle' V='0'/>
+					<Cell N='FlipX' V='0'/>
+					<Cell N='FlipY' V='0'/>
+					<Cell N='ResizeMode' V='0'/>
+					<Cell N='FillForegnd' V='#ed7d31' F='THEMEGUARD(THEMEVAL("AccentColor2"))'/>
+					<Cell N='FillBkgnd' V='#7d380b' F='THEMEGUARD(SHADE(FillForegnd,LUMDIFF(THEMEVAL("FillColor"),THEMEVAL("FillColor2"))))'/>
+					<Cell N='HideText' V='0' F='User.IsHidden'/>
+					<Cell N='ObjType' V='4'/>
+					<Cell N='LockWidth' V='1'/>
+					<Cell N='LockHeight' V='1'/>
+					<Cell N='LockMoveX' V='1'/>
+					<Cell N='LockMoveY' V='1'/>
+					<Cell N='LockAspect' V='1'/>
+					<Cell N='LockRotate' V='1'/>
+					<Cell N='LockVtxEdit' V='1'/>
+					<Cell N='LockTextEdit' V='1'/>
+					<Cell N='LockCalcWH' V='1'/>
+					<Cell N='LockCustProp' V='1'/>
+					<Cell N='TxtPinX' V='0.09842519685039371' U='MM' F='Width*0.5'/>
+					<Cell N='TxtPinY' V='0.1968503937007874' U='MM' F='Height*1'/>
+					<Cell N='TxtWidth' V='0.1450144310672743' F='TEXTWIDTH(TheText)'/>
+					<Cell N='TxtHeight' V='0.1968503937007874' U='MM' F='Height*1'/>
+					<Cell N='TxtLocPinX' V='0.07250721553363715' F='TxtWidth*0.5'/>
+					<Cell N='TxtLocPinY' V='0.1968503937007874' U='MM' F='TxtHeight*1'/>
+					<Cell N='TxtAngle' V='0'/>
+					<Cell N='SketchSeed' V='15596'/>
+					<Cell N='LayerMember' V='0'/>
+					<Section N='Character'>
+						<Row IX='0'>
+							<Cell N='Color' V='#feffff' F='Inh'/>
+							<Cell N='LangID' V='en-GB'/>
+						</Row>
+					</Section>
+					<Section N='User'>
+						<Row N='IsHidden'>
+							<Cell N='Value' V='0' U='BOOL' F='Sheet.5!User.AutoHideLabels'/>
+							<Cell N='Prompt' V=''/>
+						</Row>
+						<Row N='Label'>
+							<Cell N='Value' V='A' U='STR' F='Sheet.5!Prop.LabelStart'/>
+							<Cell N='Prompt' V=''/>
+						</Row>
+					</Section>
+					<Section N='Field'>
+						<Row IX='0'>
+							<Cell N='Value' V='A' U='STR' F='User.Label'/>
+							<Cell N='Format' V='esc(0)' U='STR' F='FIELDPICTURE(0)'/>
+							<Cell N='Type' V='0'/>
+							<Cell N='UICat' V='0'/>
+							<Cell N='UICod' V='255'/>
+							<Cell N='UIFmt' V='0'/>
+							<Cell N='Calendar' V='0'/>
+							<Cell N='ObjectKind' V='0'/>
+						</Row>
+					</Section>
+					<Section N='Geometry' IX='0'>
+						<Cell N='NoFill' V='0'/>
+						<Cell N='NoLine' V='0'/>
+						<Cell N='NoShow' V='0' F='User.IsHidden'/>
+						<Cell N='NoSnap' V='0'/>
+						<Cell N='NoQuickDrag' V='0'/>
+						<Row T='MoveTo' IX='1'>
+							<Cell N='X' V='0' U='MM'/>
+							<Cell N='Y' V='0' U='MM'/>
+						</Row>
+						<Row T='LineTo' IX='2'>
+							<Cell N='X' V='0.1968503937007874' U='MM' F='Width'/>
+							<Cell N='Y' V='0' U='MM'/>
+						</Row>
+						<Row T='LineTo' IX='3'>
+							<Cell N='X' V='0.1968503937007874' U='MM' F='Width'/>
+							<Cell N='Y' V='0.1968503937007874' U='MM' F='Height'/>
+						</Row>
+						<Row T='LineTo' IX='4'>
+							<Cell N='X' V='0' U='MM'/>
+							<Cell N='Y' V='0.1968503937007874' U='MM' F='Height'/>
+						</Row>
+						<Row T='LineTo' IX='5'>
+							<Cell N='X' V='0' U='MM' F='Geometry1.X1'/>
+							<Cell N='Y' V='0' U='MM' F='Geometry1.Y1'/>
+						</Row>
+					</Section>
+					<Text>
+						<cp IX='0'/>
+						<fld IX='0'>A</fld>
+					</Text>
+				</Shape>
+				<Shape ID='7' NameU='EndLabel' IsCustomNameU='1' Name='EndLabel' IsCustomName='1' Type='Shape' LineStyle='1' FillStyle='1' TextStyle='7'>
+					<Cell N='PinX' V='0.787401574803149' F='Sheet.5!User.Calc_Label_EndPnt'/>
+					<Cell N='PinY' V='0.9527559055118102' F='Sheet.5!User.Calc_Label_EndPnt'/>
+					<Cell N='Width' V='0.1968503937007874' U='MM' F='MAX(TxtWidth,Sheet.5!User.MinLabelSize)'/>
+					<Cell N='Height' V='0.1968503937007874' U='MM' F='MAX(Sheet.5!User.MinLabelSize,TEXTHEIGHT(TheText,TxtWidth))'/>
+					<Cell N='LocPinX' V='0.1968503937007874' U='MM' F='Width*EVALCELL(Sheet.5!User.fx_LocPinXFactor,"Sect",Sheet.5!User.Label_End_Side)'/>
+					<Cell N='LocPinY' V='0.09842519685039371' U='MM' F='Height*EVALCELL(Sheet.5!User.fx_LocPinYFactor,"Sect",Sheet.5!User.Label_End_Side)'/>
+					<Cell N='Angle' V='0'/>
+					<Cell N='FlipX' V='0'/>
+					<Cell N='FlipY' V='0'/>
+					<Cell N='ResizeMode' V='0'/>
+					<Cell N='FillForegnd' V='#ed7d31' F='THEMEGUARD(THEMEVAL("AccentColor2"))'/>
+					<Cell N='FillBkgnd' V='#7d380b' F='THEMEGUARD(SHADE(FillForegnd,LUMDIFF(THEMEVAL("FillColor"),THEMEVAL("FillColor2"))))'/>
+					<Cell N='HideText' V='0' F='User.IsHidden'/>
+					<Cell N='ObjType' V='4'/>
+					<Cell N='LockWidth' V='1'/>
+					<Cell N='LockHeight' V='1'/>
+					<Cell N='LockMoveX' V='1'/>
+					<Cell N='LockMoveY' V='1'/>
+					<Cell N='LockAspect' V='1'/>
+					<Cell N='LockRotate' V='1'/>
+					<Cell N='LockVtxEdit' V='1'/>
+					<Cell N='LockTextEdit' V='1'/>
+					<Cell N='LockCalcWH' V='1'/>
+					<Cell N='LockCustProp' V='1'/>
+					<Cell N='TxtPinX' V='0.09842519685039371' U='MM' F='Width*0.5'/>
+					<Cell N='TxtPinY' V='0.1968503937007874' U='MM' F='Height*1'/>
+					<Cell N='TxtWidth' V='0.1450144310672743' F='TEXTWIDTH(TheText)'/>
+					<Cell N='TxtHeight' V='0.1968503937007874' U='MM' F='Height*1'/>
+					<Cell N='TxtLocPinX' V='0.07250721553363715' F='TxtWidth*0.5'/>
+					<Cell N='TxtLocPinY' V='0.1968503937007874' U='MM' F='TxtHeight*1'/>
+					<Cell N='TxtAngle' V='0'/>
+					<Cell N='SketchSeed' V='15596'/>
+					<Cell N='LayerMember' V='0'/>
+					<Section N='Character'>
+						<Row IX='0'>
+							<Cell N='Color' V='#feffff' F='Inh'/>
+							<Cell N='LangID' V='en-GB'/>
+						</Row>
+					</Section>
+					<Section N='User'>
+						<Row N='IsHidden'>
+							<Cell N='Value' V='0' U='BOOL' F='Sheet.5!User.AutoHideLabels'/>
+							<Cell N='Prompt' V=''/>
+						</Row>
+						<Row N='Label'>
+							<Cell N='Value' V='A' U='STR' F='IF(Sheet.5!Prop.SyncLabels,Sheet.5!Prop.LabelStart,Sheet.5!Prop.LabelEnd)'/>
+							<Cell N='Prompt' V=''/>
+						</Row>
+					</Section>
+					<Section N='Field'>
+						<Row IX='0'>
+							<Cell N='Value' V='A' U='STR' F='User.Label'/>
+							<Cell N='Format' V='esc(0)' U='STR' F='FIELDPICTURE(0)'/>
+							<Cell N='Type' V='0'/>
+							<Cell N='UICat' V='0'/>
+							<Cell N='UICod' V='255'/>
+							<Cell N='UIFmt' V='0'/>
+							<Cell N='Calendar' V='0'/>
+							<Cell N='ObjectKind' V='0'/>
+						</Row>
+					</Section>
+					<Section N='Geometry' IX='0'>
+						<Cell N='NoFill' V='0'/>
+						<Cell N='NoLine' V='0'/>
+						<Cell N='NoShow' V='0' F='User.IsHidden'/>
+						<Cell N='NoSnap' V='0'/>
+						<Cell N='NoQuickDrag' V='0'/>
+						<Row T='MoveTo' IX='1'>
+							<Cell N='X' V='0' U='MM'/>
+							<Cell N='Y' V='0' U='MM'/>
+						</Row>
+						<Row T='LineTo' IX='2'>
+							<Cell N='X' V='0.1968503937007874' U='MM' F='Width'/>
+							<Cell N='Y' V='0' U='MM'/>
+						</Row>
+						<Row T='LineTo' IX='3'>
+							<Cell N='X' V='0.1968503937007874' U='MM' F='Width'/>
+							<Cell N='Y' V='0.1968503937007874' U='MM' F='Height'/>
+						</Row>
+						<Row T='LineTo' IX='4'>
+							<Cell N='X' V='0' U='MM'/>
+							<Cell N='Y' V='0.1968503937007874' U='MM' F='Height'/>
+						</Row>
+						<Row T='LineTo' IX='5'>
+							<Cell N='X' V='0' U='MM' F='Geometry1.X1'/>
+							<Cell N='Y' V='0' U='MM' F='Geometry1.Y1'/>
+						</Row>
+					</Section>
+					<Text>
+						<cp IX='0'/>
+						<fld IX='0'>A</fld>
+					</Text>
+				</Shape>
+			</Shapes>
+		</Shape>
+	</Shapes>
+</MasterContents>
