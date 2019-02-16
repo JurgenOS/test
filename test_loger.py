@@ -2,7 +2,11 @@
 #C:\Users\jos\WPy-3670\python-3.6.7.amd64\python.exe -i "$(FULL_CURRENT_PATH)"
 import logging
 import functools
+import platform
 import sys
+import os
+
+
 
 
 class _LogTracer(object):
@@ -16,6 +20,11 @@ class _LogTracer(object):
     @property
     def last_frame(self):
         return self._last_frame
+
+    def log_file_path(self):
+        if not os.path.exists('log'):
+            os.mkdir('log')
+        return os.path._
 
 def log_locals_on_exit(fn):
     logging.basicConfig(level=logging.DEBUG)
@@ -46,12 +55,11 @@ def some_function(x, y):
     print(string)
     return string  
 
+
 @log_locals_on_exit
 def some_function_1(x):
     temp = type(x)
     return x
     
     
-some_function_1(3)
-
-    
+some_function(3,5)
