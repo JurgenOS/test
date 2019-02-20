@@ -24,14 +24,19 @@ class _LogTracer(object):
             os.mkdir('log')
         return os.path._getfullpathname('log')
 
+def log_file_path        
+      
+        
 
 log_tracer = _LogTracer()
-log_file = os.path.join(log_tracer.log_dir_path, 'log.log')
+log_file_path = os.path.join(log_tracer.log_dir_path, 'log.log')
 logging.basicConfig(format='%(asctime)s %(levelname)s  %(message)s',
                     datefmt='%d/%m/%Y %H:%M:%S',
                     filename=log_file,
                     level=logging.DEBUG)
 
+log_file = 
+                    
 
 def log_locals_on_exit(fn):
     @functools.wraps(fn)
